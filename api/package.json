@@ -1,0 +1,24 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "author": "me unknownGriot",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.7",
+    "multer": "^1.4.4",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "npm" : "8.3.0",
+    "node" : "17.3.0"
+  }
+}

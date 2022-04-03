@@ -1,0 +1,57 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("../../../public/assets/register.avif");
+    background-size: cover;
+}
+
+.login-title{
+    font-size: 50px;
+}
+
+.login-form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.login-form > label{
+    margin: 10px 0px ;
+}
+
+.login-form > input{
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.login-btn{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.login-registerBtn{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.login-btn:disabled{
+    cursor:not-allowed;
+    background-color:rgb(245, 157, 157);
+}
